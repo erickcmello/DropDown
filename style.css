@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #22438c;
+  color: white;
+  text-align: center;
+}
+
+#tamanholista {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+#marca {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  left: 1%;
+}
+
+#posicaoList {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  right: 40%;
+  padding: 0;
+}
+
+.buttoncab {
+  padding: 0;
+  position: relative;
+  border: none;
+  color: #ffffff;
+  height: 100%;
+  width: 110px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttoncab:hover {
+  border-bottom: 5px solid #112c66;
+  transition: 0.13s;
+}
+
+.topiclist {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.topicdropdown {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+}
+.topicdropdown:hover {
+  background-color: rgb(0, 0, 0, 0.4);
+  border-right: 5px solid #112c66;
+  cursor: pointer;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 105%;
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 9, 0.6);
+}
+.buttoncab:hover .dropdown {
+  display: block;
+}

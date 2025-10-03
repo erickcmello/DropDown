@@ -1,0 +1,4 @@
+<!---Atividade 1 - Atividade de Layout 
+Crie um layout com header, dentro do header crie uma lista com botões das seguintes opções:Home,Linguagens,About Us, Contact Us.
+O botão Linguagens terá um DropDown com as opções: HTML, CSS, JavaScript,PHP, Python.
+Use CSS para estilizar o layout e o DropDown.--->
