@@ -4,7 +4,23 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+main {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+article {
+  width: 60%;
+}
+.titulo {
+  color: black;
+  font-size: 30px;
+}
+p {
+  color: black;
+}
 header {
   position: fixed;
   width: 100%;
